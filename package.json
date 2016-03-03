@@ -1,0 +1,21 @@
+{
+  "name": "rocket-shop",
+  "version": "1.0.0",
+  "description": "sub tool",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "author": "danny",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "moment": "^2.11.2"
+  }
+}
